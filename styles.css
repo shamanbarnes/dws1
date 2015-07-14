@@ -8,6 +8,8 @@ body{
 
 header h1{
 	text-align: center;
+	color: #104E8B;
+	text-shadow: 2px 2px #DCDCDC;
 }
 
 nav{
@@ -31,7 +33,33 @@ h1, h2, h3{
 	font-size: 40px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	color: #104E8B;
+	text-shadow: 2px 2px #DCDCDC;
 }
+
+/* unvisited link */
+a:link {
+    color: #00008B;
+}
+
+/* visited link */
+a:visited {
+    color: #1C86EE;
+}
+
+/* mouse over link */
+a:hover {
+    color: #BEBEBE;
+}
+
+/* selected link */
+a:active {
+    color: ##1C86EE;
+}
+
+
+
+
 
 footer{
 	text-align: center;
