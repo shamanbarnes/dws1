@@ -6,6 +6,10 @@ body{
 }
 
 
+header h1{
+	text-align: center;
+}
+
 nav{
 	position: relative;
 	text-align: center;
@@ -20,10 +24,10 @@ nav ul li{
 	width: 1000px;
 	list-style-type: none;
 	display: inline;
-	margin: 30px;
+	margin: 10px;
 }
 
-h1{
+h1, h2, h3{
 	font-size: 40px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -35,3 +39,5 @@ footer{
 	margin: 0 auto 1em;
 	position: relative;
 }
+
+
