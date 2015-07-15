@@ -1,5 +1,6 @@
+/* global css */
 
-body{
+body {
 	margin: 0 auto;
 	width: 1000px;
 	font-family: 'Open Sans', sans-serif;
@@ -7,28 +8,30 @@ body{
 }
 
 
-header h1{
+header h1 {
 	text-align: center;
 	color: #104E8B;
 	font-weight: bold;
 	text-shadow: 2px 2px #DCDCDC;
+	font-size: 40px;
 }
 
-nav{
+
+/* navigation */
+nav {
 	position: relative;
 	text-align: center;
 	width: 1000px;
 	height: 2.55556em;
-	margin: 0 auto 1em;
 	font-size: 18px;
 }
 
-nav li a{
+nav li a {
 	text-decoration: none;
 }
 
 
-ul li{
+ul li {
 	width: 1000px;
 	list-style-type: none;
 	display: inline;
@@ -36,8 +39,10 @@ ul li{
 	text-decoration: none;
 }
 
-h1, h2, h3{
-	font-size: 40px;
+
+/* all h1 h2 h3 styling */
+h2, h3{
+	font-size: 30px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #104E8B;
@@ -65,7 +70,7 @@ a:active {
 }
 
 
-q{
+q {
 	font-size: 19px;
 	font-style: italic;
 	color: #104E8B;
@@ -73,8 +78,21 @@ q{
 }
 
 
+/* image styling */
+img {
+   padding:1px;
+   border-radius: 10px 10px 10px 10px;
+   background-color: #104E8B;
+   display: inline-block;
+}
 
-footer{
+img:hover { 
+	opacity: 0.7;
+}
+
+
+/* footer styling */
+footer {
 	text-align: center;
 	width: 1000px;
 	margin: 0 auto 1em;
