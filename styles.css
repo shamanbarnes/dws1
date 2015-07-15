@@ -3,12 +3,14 @@ body{
 	margin: 0 auto;
 	width: 1000px;
 	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
 }
 
 
 header h1{
 	text-align: center;
 	color: #104E8B;
+	font-weight: bold;
 	text-shadow: 2px 2px #DCDCDC;
 }
 
@@ -18,15 +20,20 @@ nav{
 	width: 1000px;
 	height: 2.55556em;
 	margin: 0 auto 1em;
-	z-index: 9999;
 	font-size: 18px;
 }
 
-nav ul li{
+nav li a{
+	text-decoration: none;
+}
+
+
+ul li{
 	width: 1000px;
 	list-style-type: none;
 	display: inline;
 	margin: 10px;
+	text-decoration: none;
 }
 
 h1, h2, h3{
@@ -39,7 +46,7 @@ h1, h2, h3{
 
 /* unvisited link */
 a:link {
-    color: #00008B;
+    color: #2F4F4F;
 }
 
 /* visited link */
@@ -54,10 +61,16 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: ##1C86EE;
+    color: #1C86EE;
 }
 
 
+q{
+	font-size: 19px;
+	font-style: italic;
+	color: #104E8B;
+	font-weight: bold;
+}
 
 
 
