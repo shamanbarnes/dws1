@@ -5,6 +5,7 @@ body {
 	width: 1000px;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.4;
+	background-color: #F8F8FF;
 }
 
 
@@ -91,10 +92,30 @@ img:hover {
 }
 
 
+section{
+	width: 1000px;
+	height: 400px;
+
+}
+
+
+article{
+	width: 1000px;
+	height: 820px;
+}
+
+
+
+aside{
+	width: 1000px;
+
+}
+
 /* footer styling */
 footer {
 	text-align: center;
 	width: 1000px;
+	height: 150px;
 	margin: 0 auto 1em;
 	position: relative;
 }
