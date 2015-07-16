@@ -5,16 +5,17 @@ body {
 	width: 1000px;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.4;
-	background-color: #F8F8FF;
+	background-color: #FFF;
 }
 
+/* Header styling */
 
 header h1 {
 	text-align: center;
 	color: #104E8B;
-	font-weight: bold;
+	font-weight: bolder;
 	text-shadow: 2px 2px #DCDCDC;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 
@@ -22,13 +23,15 @@ header h1 {
 nav {
 	position: relative;
 	text-align: center;
-	width: 1000px;
 	height: 2.55556em;
 	font-size: 18px;
 }
 
 nav li a {
 	text-decoration: none;
+	display: inline;
+	margin: 0 1em 0 0;
+	width: 1000px;
 }
 
 
@@ -46,8 +49,9 @@ h2, h3{
 	font-size: 30px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	color: #104E8B;
+	color: #f06600;
 	text-shadow: 2px 2px #DCDCDC;
+	padding: 10px;
 }
 
 /* unvisited link */
@@ -84,7 +88,6 @@ img {
    padding:1px;
    border-radius: 10px 10px 10px 10px;
    background-color: #104E8B;
-   display: inline-block;
 }
 
 img:hover { 
@@ -94,28 +97,32 @@ img:hover {
 
 section{
 	width: 1000px;
-	height: 400px;
-
+	height: 440px;
+	margin: 5px auto;
+	padding: 5px;
 }
 
 
-article{
+article {
 	width: 1000px;
-	height: 820px;
+	height: 880px;
+	margin: 5px auto;
+	padding: 5px;
+	background-color: #FAFAFA;
 }
 
 
-
-aside{
+aside {
 	width: 1000px;
-
+	margin: 5px auto;
+	display: inline-block;
 }
 
 /* footer styling */
 footer {
 	text-align: center;
 	width: 1000px;
-	height: 150px;
+	height: 10px;
 	margin: 0 auto 1em;
 	position: relative;
 }
