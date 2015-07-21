@@ -136,8 +136,29 @@ section{
 }
 
 
+.middle1{
+	width: 280px;
+	float: left;
+	margin: 5px;
+}
+
+.middle2{
+	width: 370px;
+	float: left;
+	margin: 5px;
+}
+
+
+.middle3{
+	width: 320px;
+	float: left;
+	margin: 5px;
+}
+
+
 blockquote{
 	clear: both;
+	text-align: center;
 }
 
 
