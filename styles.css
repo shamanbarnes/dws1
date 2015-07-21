@@ -94,16 +94,24 @@ img:hover {
 	opacity: 0.7;
 }
 
+.img{
+	margin: 20px;
+	padding: 20px;
+	width: auto;
+	float: left;
+	text-align: center;
+}
 
 section{
 	width: 1000px;
 	height: 440px;
 	margin: 5px auto;
 	padding: 5px;
+	clear: both;
 }
 
 .box1{
-	width: 330px;
+	width: 340px;
 	margin: 10px;
 	float: left;
 }
@@ -114,6 +122,23 @@ section{
 	float: left;
 }
 
+.column1{
+	width: 750px;
+	float: left;
+	margin: 10px;
+}
+
+.column2{
+	width: 200px;
+	margin: 10px;
+	float: left;
+
+}
+
+
+blockquote{
+	clear: both;
+}
 
 
 article {
@@ -122,8 +147,8 @@ article {
 	margin: 5px auto;
 	padding: 5px;
 	background-color: #FAFAFA;
-	clear: both;
 }
+
 
 
 aside {
