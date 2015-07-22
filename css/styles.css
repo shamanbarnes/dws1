@@ -5,7 +5,7 @@ body {
 	width: 1000px;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.4;
-	background-image: url("bg.jpg");	
+	background-color: #FFF;
 }
 
 /* Header styling */
@@ -51,7 +51,7 @@ h2, h3{
 	font-weight: 300;
 	color: #f06600;
 	text-shadow: 2px 2px #DCDCDC;
-	padding: 100px;
+	padding: 10px;
 }
 
 /* unvisited link */
@@ -87,6 +87,7 @@ q {
 img {
    padding:1px;
    border-radius: 10px 10px 10px 10px;
+   background-color: #104E8B;
 }
 
 img:hover { 
@@ -131,6 +132,7 @@ section{
 	width: 200px;
 	margin: 10px;
 	float: left;
+
 }
 
 
@@ -165,7 +167,7 @@ article {
 	height: 880px;
 	margin: 5px auto;
 	padding: 5px;
-	/*background-color: #FAFAFA;*/
+	background-color: #FAFAFA;
 }
 
 
