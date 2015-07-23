@@ -5,7 +5,6 @@ body {
 	width: 90%;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.4;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
 	background: rgb(246,248,249); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); /* Chrome,Safari4+ */
@@ -16,9 +15,6 @@ body {
 }
 
 /* Header styling */
-header{
-	background-color: #FAFAFA;
-}
 
 
 header h1 {
@@ -62,8 +58,10 @@ h2, h3{
 	font-weight: 300;
 	color: #f06600;
 	text-shadow: 2px 2px #DCDCDC;
-	padding: 1%;
+	padding: 2%;
 }
+
+
 
 /* unvisited link */
 a:link {
@@ -110,7 +108,7 @@ img:hover {
 }
 
 .img{
-	margin: 2%;
+	margin: 1.5%;
 	padding: 2%;
 	width: auto;
 	float: left;
@@ -170,6 +168,7 @@ section{
 	float: left;
 	margin: .5%;
 }
+
 
 
 blockquote{
