@@ -241,30 +241,82 @@ aside {
     border: solid 1px #DDEEEE;
     border-collapse: collapse;
     border-spacing: 0;
-    font: normal 13px Arial, sans-serif;
-    margin: 15px;
+    font: normal .8em 'Open Sans', sans-serif;
+    margin: 1.5%;
+    width: 60%;
 }
 
 .pb-table thead th {
     background-color: #DDEFEF;
     border: solid 1px #DDEEEE;
     color: #336B6B;
-    padding: 10px;
+    padding: 1.5%;
     text-align: left;
     text-shadow: 1px 1px 1px #fff;
 }
+
 .pb-table tbody td {
     border: solid 1px #DDEEEE;
     color: #333;
-    padding: 10px;
+    padding: 1.5%;
     text-shadow: 1px 1px 1px #fff;
 }
+
 .pb-table-highlight tbody tr:hover {
     background-color: #CCE7E7;
 }
+
 .pb-table-horizontal tbody td {
     border-left: none;
     border-right: none;
+}
+
+
+/* contact form */
+
+input, textarea {
+	padding: 1%;
+	border: 1px solid #E5E5E5;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+
+textarea {
+	width: 40%;
+	height: 150px;
+	max-width: 40%;
+	line-height: 1.8%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+
+.form{
+	margin: 2%;
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+.submit input {
+	width: 10%; 
+	height: 5%;
+	background-color: #104E8B; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
 }
 
 

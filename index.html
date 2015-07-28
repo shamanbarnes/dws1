@@ -150,8 +150,48 @@
 
 		</aside>
 
-		<footer> 	<!-- footer -->
+		<h2>Contact Form</h2>
+	
+		<form class="form">
+			
+			<p class="name">
+				<input type="text" name="name" id="name" placeholder="John Doe" />
+				<label for="name">Name</label>
+			</p>
+			
+			<p class="email">
+				<input type="text" name="email" id="email" placeholder="mail@example.com" />
+				<label for="email">Email</label>
+			</p>
+			
+			<p class="web">
+				<input type="text" name="web" id="web" placeholder="www.example.com" />
+				<label for="web">Website</label>
+			</p>		
 
+			<p>What county did you visit?</p>
+				<select name="county">
+					<option value="West Palm Beach">West Palm Beach</option>
+					<option value="Riviera Beach">Riviera Beach</option>
+					<option value="Plam Beach Gardens">Palm Beach Gardens</option>
+					<option value="Lake Worth">Lake Worth</option>
+				</select>
+
+			<p>Did you enjoy your stay?</p>
+				<input type="radio" name="answer" value="yes" /> Yes
+				<input type="radio" name="answer" value="no" /> No
+
+			<p class="text">
+				<textarea name="text" placeholder="Write something to us" ></textarea>
+			</p>
+			
+			<p class="submit">
+				<input type="submit" value="Send" />
+			</p>
+		</form>
+
+
+		<footer> 	<!-- footer -->
 			<p>Designed by Shaman Barnes, content source from <a href="https://en.wikipedia.org/wiki/West_Palm_Beach,_Florida#Tourism_and_recreation">www.wikipedia.com</a></p>
 
 		</footer>
